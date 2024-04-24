@@ -1,0 +1,19 @@
+{
+   "name": "calculator",
+   "version": "1.0.0",
+   "description": "Will describe after the deployment",
+   "default": "calculator.js",
+   "scripts": {
+      "start": "parcel index.html",
+      "build": "parcel build index.html --dist-dir ./dist"
+   },
+   "author": "NC",
+   "license": "ISC",
+   "devDependencies": {
+      "parcel": "^2.12.0"
+   },
+   "dependencies": {
+      "core-js": "^3.37.0",
+      "regenerator-runtime": "^0.14.1"
+   }
+}
